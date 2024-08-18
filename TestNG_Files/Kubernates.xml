@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite1" parallel="tests" thread-count="2">
+
+
+    <test name="Kubernetes_HeaderMenu">
+        <classes>
+            <class name="PageObject.KubernatesClass"/>
+        </classes>
+    </test>
+
+
+    <test name="Kubernetes_HeaderMenu1">
+        <classes>
+            <class name="Scripts.TestingJuly21"/>
+        </classes>
+    </test>
+
+
+</suite>

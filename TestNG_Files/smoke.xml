@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Smoke Test Suite">
+
+
+    <test name="Running All Smoke Test Cases">
+        <groups>
+            <run>
+                <include name="prod"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="newScriptsPackage.TestScenario_001"/>
+            <class name="newScriptsPackage.TestScenario_002"/>
+            <class name="newScriptsPackage.TestScenario_003"/>
+        </classes>
+    </test>
+
+</suite>
